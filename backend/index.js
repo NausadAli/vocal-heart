@@ -56,8 +56,11 @@ app.post('/api/jobs', async (req, res) => {
    }
  });
 
-app.get('/', ()=>{
+app.get('/', (req, res)=>{
   console.log("Hello Vercel")
+  res.status(200).json({
+    message: "Hello"
+  })
 })
  
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
