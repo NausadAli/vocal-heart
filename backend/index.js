@@ -55,5 +55,9 @@ app.post('/api/jobs', async (req, res) => {
      res.status(500).json({ message: 'Internal Server Error' });
    }
  });
+
+app.get('/', ()=>{
+  console.log("Hello Vercel")
+})
  
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
