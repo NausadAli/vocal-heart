@@ -8,7 +8,9 @@ const PORT = process.env.PORT || 3000;
 
 console.log(PORT)
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://vocal-heart-k2s1pwlyv-nousad-alis-projects.vercel.app' // Replace with your exact frontend URL
+}));
 app.use(express.json());
 
 // Connect to MongoDB
