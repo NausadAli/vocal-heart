@@ -3,11 +3,6 @@
 ## Project Overview
 This project is a simple job portal web application consisting of a Node.js backend and a static frontend. The backend handles job data management, while the frontend provides pages for job listings, login functionality, and a home page. The project structure is as follows:
 
-
-
-## Project Overview
-This project is a simple web application consisting of a Node.js backend and a frontend with HTML files. The project structure is as follows:
-
 ```
 /backend
   - index.js
